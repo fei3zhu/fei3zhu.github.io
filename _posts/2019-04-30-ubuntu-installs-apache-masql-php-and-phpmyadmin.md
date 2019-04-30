@@ -2,14 +2,14 @@
 layout: post
 title:  "Ubuntu安装Apache，MySQL，PHP以及phpMyAdmin"
 date:   2019-04-30 10:24:49 +0800
-categories: technology
+categories: Ubuntu
 tags: ubuntu apache mysql php phpmyadmin
 img: https://ooo.0o0.ooo/2017/05/27/59292b1243dc9.jpg
-author: test
+author: nobody
 describe: 还原了服务器，于是重装，顺路记录下来，路过的朋友们可以借鉴，LAMP Go!
 ---
 
-# 转载 author: test
+# 转载 author: nobody
 
 ## Apache
 
