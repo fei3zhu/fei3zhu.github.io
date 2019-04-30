@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "Ubuntu安装Apache，MySQL，PHP以及phpMyAdmin"
-date:   2016-04-14 10:24:49 +0800
+date:   2019-04-30 10:24:49 +0800
 categories: technology
 tags: ubuntu apache mysql php phpmyadmin
 img: https://ooo.0o0.ooo/2017/05/27/59292b1243dc9.jpg
 author: test
 describe: 还原了服务器，于是重装，顺路记录下来，路过的朋友们可以借鉴，LAMP Go!
 ---
+
+# 转载 author: test
 
 ## Apache
 
@@ -78,9 +80,9 @@ Apache 的错误日志文件默认为 `/var/log/apache2/error.log` 。
 然后将 PHP 索引文件移动到第一个位置，如下：
 
     <IfModule mod_dir.c>
-
+    
     DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
-
+    
     </IfModule>
 
 一些模块：
