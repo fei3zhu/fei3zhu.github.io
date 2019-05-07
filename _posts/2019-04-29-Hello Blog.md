@@ -4,7 +4,7 @@ title: "你好，博客！"
 date: 2019-04-29 21:00:00 +0800
 categories: Daily
 tags: helloworld daily
-img: ../images/blog/20190429/Uranus_ZH-CN9689723562_1920x1080.jpg
+img: ../images/blog/20190429/head.jpg
 describe: 我的第一篇博客竟然是这样的
 ---
 
