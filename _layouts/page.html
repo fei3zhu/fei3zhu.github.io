@@ -1,9 +1,21 @@
 ---
 layout: default
 ---
-{% include jumbotron.html %}
-<article class="post container">
 
-    {{ content }}
+  <div id="page">
+    <header class="page-header">
+      <h2>{{ page.title }}</h2>
+    </header>
 
-</article>
+    <article class="page-content">
+      {{ content }}
+    </article>
+
+
+  </div><!-- end page content -->
+
+
+  {% if site.owner.disqus-shortname and page.comments == true %}
+  <div id="disqus_thread"></div>
+  {% include disqus.html %}
+  {% endif %}
