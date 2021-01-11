@@ -57,3 +57,5 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
+=======
+theme: jekyll-theme-architect
