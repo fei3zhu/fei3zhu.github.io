@@ -1,0 +1,59 @@
+# Site settings
+title: DaFei Blog
+url: "http://fei3zhu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+#timezone: Asia/Chongqing
+description: >
+  实澹泊而寡欲兮，独怡乐而长吟。声皦皦而弥厉兮，似贞士之介心。
+
+# Your information
+email: fei3zhu@gmail.com
+author: DaFei
+avatar: "//s.gravatar.com/avatar/e5c94174ee5e437efbc4f4d4426c8d31?s=80"
+profile: 热爱生活，向往自由。
+#twitter_username: twitter_username
+#github_username:  github_username
+profile_links:
+  Email: "mailto:fei3zhu@gmail.com"
+  GitHub: "https://github.com/fei3zhu/fei3zhu.github.io"
+  # You can add more profile links above, or edit _includes/sidebar.html 
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+excerpt_separator: <!--more-->
+
+header:
+  links:             # Links on the header. Link to in-site page with a slash as prefix
+    About: /about/
+    Category: /category/
+    Donate: https://github.com/fei3zhu/fei3zhu.github.io
+
+permalink: /archivers/:title
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+# https://jekyllrb.com/docs/configuration/#precedence
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
