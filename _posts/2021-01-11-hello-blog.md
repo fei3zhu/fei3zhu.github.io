@@ -2,7 +2,7 @@
 layout: post
 title:  "水一篇博客文(Water a Blog Post)"
 date:   2021-01-11 20:00
-categories: jekyll
+categories: else
 permalink: /articles/waterABlogPost
 typora-root-url: ..\_image
 ---
